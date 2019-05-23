@@ -31,12 +31,12 @@ export default {
   props: ["books"],
   data() {
     return {
-      bookData:{
-      bookTitle: "",
-      bookAuthor: "",
-      finishedReading: false,
-      owership: []
-      }
+      bookData: {
+            bookTitle: "",
+            bookAuthor: "",
+            finishedReading: false,
+            ownership: []
+          }
     };
   },
   methods: {
