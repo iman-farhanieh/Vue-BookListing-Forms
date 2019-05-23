@@ -31,10 +31,12 @@ export default {
   props: ["books"],
   data() {
     return {
+      bookData:{
       bookTitle: "",
       bookAuthor: "",
       finishedReading: false,
       owership: []
+      }
     };
   },
   methods: {
